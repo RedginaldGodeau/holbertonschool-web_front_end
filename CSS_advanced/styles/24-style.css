@@ -230,7 +230,7 @@ ul.row {
 }
 
 .card-services a:hover {
-    color: var(--text-color);
+    color: var(--color-white);
     background-color: var(--color-primary);
 }
 
