@@ -47,14 +47,14 @@ a {
 a:link {
     text-decoration: none;
 }
-a:valid {
+a:visited {
     font-style: italic;
 }
-a:valid:hover {
+a:link:hover {
     text-decoration: dashed;
 }
-a:valid:active {
-    color: var(--color-light-grey);
+a:active {
+    background-color: var(--color-light-grey);
 }
 
 h1, h2, h3, h4, h5, h6 {
