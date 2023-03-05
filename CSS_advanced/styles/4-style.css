@@ -6,8 +6,8 @@
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 
-    --font-family-base: 'Arial';
-    --font-family-title: 'Helvetica Neue';
+    --font-family-base: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    --font-family-title: var(--font-family-base);
 }
 
 html {
