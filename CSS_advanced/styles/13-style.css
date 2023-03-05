@@ -47,13 +47,13 @@ a {
 a:link {
     text-decoration: none;
 }
-a:link :valid {
+a:valid {
     font-style: italic;
 }
-a:link :link:hover {
+a:valid:hover {
     text-decoration: dashed;
 }
-a:link :valid:active {
+a:valid:active {
     color: var(--color-light-grey);
 }
 
