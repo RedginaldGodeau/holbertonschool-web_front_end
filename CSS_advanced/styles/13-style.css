@@ -44,6 +44,9 @@ body, a {
 a {
     text-decoration: none;
 }
+a:visited {
+    font-style: italic;
+}
 a:link:hover {
     text-decoration: dashed;
 }
