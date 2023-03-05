@@ -54,16 +54,19 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-.card-category {
+.card-category, .section-tagline {
     color: var(--text-color);
 }
-.section-tagline {
-    color: var(--section-title-color);
+.section-tagline, .section-title {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 
     margin: var(--section-title-margin);
+}
+.section-title {
+    color: var(--section-title-color);
+    font-size: var(--font-size-xx-large);
 }
 .section-header {
     text-align: var(--section-header-align);
