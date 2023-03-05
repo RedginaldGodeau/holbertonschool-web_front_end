@@ -44,13 +44,16 @@ body, a {
 a {
     text-decoration: none;
 }
-a:valid {
+a:link {
+    text-decoration: none;
+}
+a:link :valid {
     font-style: italic;
 }
-a:link:hover {
+a:link :link:hover {
     text-decoration: dashed;
 }
-a:active {
+a:link :valid:active {
     color: var(--color-light-grey);
 }
 
