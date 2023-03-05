@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: var(--section-padding);
 }
 .section-hero {
-    background-image: 90rem auto;
+    background-size: 90rem auto;
 }
 .section-hero .section-title {
     margin-bottom: 5rem;
