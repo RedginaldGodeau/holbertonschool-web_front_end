@@ -44,10 +44,10 @@ body, a {
 a {
     text-decoration: none;
 }
-a:target:hover {
+a:link:hover {
     text-decoration: dashed;
 }
-a:target:active {
+a:link:active {
     color: var(--color-light-grey);
 }
 
