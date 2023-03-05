@@ -214,6 +214,6 @@ ul.row {
     display: block;
 }
 
-.social-link :where(svg) {
+.social-link > svg {
     fill: var(--color-white)
 }
