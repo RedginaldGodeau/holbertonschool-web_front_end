@@ -30,10 +30,15 @@
     --section-title-margin: 0;
 }
 
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-    box-sizing: border-box;
 }
 
 body, a {
