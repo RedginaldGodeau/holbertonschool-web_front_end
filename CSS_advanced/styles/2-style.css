@@ -3,7 +3,7 @@ html {
     color: #161616;
 }
 
-body {
+body, a {
     color: #161616;
 }
 
@@ -11,6 +11,6 @@ body {
     display: none;
 }
 
-card-category, section-tagline {
+.card-category, .section-tagline {
     color: #D73953;
 }
