@@ -120,7 +120,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--button-font-size);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
-    transition: color var(--transition-duration) var(--transition-cubic-bezier), background-color var(--transition-duration) var(--transition-cubic-bezier);
+    transition-property: color background-color;
+    transition-duration: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .button:hover {
     color: var(--button-hover-color);
@@ -356,7 +357,7 @@ ul.row {
     transform: scale(1.2);
 }
 .card-work:hover .card-outer {
-    transform: scale(.95);
+    transform: scale(0.95);
 }
 
 .card-work .card-inner {
