@@ -6,7 +6,7 @@
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 
-    --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: var(--font-family-base);
 }
 
@@ -19,7 +19,7 @@ body, a {
     font-family: var(--font-family-base);
 }
 
-* :where(h1, h2, h3, h4, h5, h6) {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
 
