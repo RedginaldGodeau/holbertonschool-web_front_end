@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    height: .2rem;
+    height: 0.2rem;
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
@@ -237,6 +237,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav .nav-item:hover .nav-link::before {
     width: 100%;
+    background-color: var(--color-primary);
 }
 
 .row::after {
