@@ -50,7 +50,7 @@ a:link {
 a:visited {
     font-style: italic;
 }
-a:visited:hover {
+a:link:hover {
     text-decoration: dashed;
 }
 a:active {
