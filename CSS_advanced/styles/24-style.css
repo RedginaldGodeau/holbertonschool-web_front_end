@@ -218,7 +218,7 @@ ul.row {
     fill: var(--text-color);
 }
 
-.card-services card-title {
+.card-services .card-title {
     margin: 0;
 }
 
@@ -226,5 +226,14 @@ ul.row {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
+    text-decoration: none;
+}
+
+.card-services a:hover {
+    color: var(--text-color);
+    background-color: var(--color-primary);
+}
+
+.card-services a:hover {
     text-decoration: none;
 }
