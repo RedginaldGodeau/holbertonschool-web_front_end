@@ -1,3 +1,7 @@
+.info {
+    font-size: 12px;
+}
+
 .success {
     @extend .info;
     color: #00FF00;
