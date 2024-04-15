@@ -1,0 +1,9 @@
+services:
+  sass:
+    build:
+      context: .
+      dockerfile: dockerfile
+    tty: true
+    volumes:
+      - ./:/app
+    working_dir: /app
